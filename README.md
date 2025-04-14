@@ -30,9 +30,8 @@ The repository is divided into two main sections:
 
 ```
 ├── prometheus/               # Prometheus + Grafana monitoring stack
-│   ├── docker-compose.yml    # Docker Compose file for Prometheus, Grafana, and Node Exporter
-│   ├── prometheus.yml        # Prometheus configuration file
-│   └── grafana-dashboard.json # Example Grafana dashboard JSON
+│   ├── assets/   # Docker Compose file for Prometheus, Grafana, and Node Exporter  and  Prometheus configuration file
+│   └── grafana-dashboard  # Example Grafana dashboard
 │
 ├── terraform/                # Terraform configurations for AWS infrastructure
 │   ├── ec2-deployment/       # EC2 instance deployment with networking
