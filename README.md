@@ -46,7 +46,7 @@ The repository is divided into two main sections:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/prometheus_and_terraform_labs.git
+   git clone https://github.com/godcandidate/prometheus_and_terraform_labs.git
    cd prometheus_and_terraform_labs
    ```
 
