@@ -1,4 +1,4 @@
-# Monitoring Stack with Prometheus, Grafana, and Node Exporter
+# Monitoring A Server with Prometheus, Grafana, and Node Exporter
 
 This repository provides a simple monitoring stack using **Prometheus**, **Grafana**, and **Node Exporter**. It allows you to monitor system metrics and visualize them using Grafana dashboards.
 
@@ -31,6 +31,8 @@ The monitoring stack consists of the following components:
 
 - Docker and Docker Compose installed on your system.
 - Basic knowledge of Docker and monitoring tools.
+- Docker compose ifile [Docker File](./assets/docker-compose.yml)
+- Prometheus rules [Prometheus File](./assets/prometheus.yml)
 
 ---
 
@@ -39,12 +41,13 @@ The monitoring stack consists of the following components:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-repo/monitoring-stack.git
-   cd monitoring-stack
+   cd prometheus_lab
    ```
 
 2. **Start the Stack**:
    Run the following command to start Prometheus, Grafana, and Node Exporter:
    ```bash
+   cd assets
    docker-compose up -d
    ```
 
