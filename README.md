@@ -37,7 +37,6 @@ The repository is divided into two main sections:
 ├── terraform/                # Terraform configurations for AWS infrastructure
 │   ├── ec2-deployment/       # EC2 instance deployment with networking
 │   ├── eks-deployment/       # EKS cluster deployment with worker nodes
-│   └── modules/              # Reusable Terraform modules
 │
 └── README.md                 # Main documentation
 ```
